@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { RetainerService } from '../retainer.service';
+import { ActivatedRoute, NavigationStart, Router} from '@angular/router';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-header',
@@ -8,16 +9,26 @@ import { RetainerService } from '../retainer.service';
 })
 export class HeaderComponent implements OnInit {
 
-  @Input() title : string ="Title";
+  title : string|undefined ="Title";
+  actualRoute : string = "";
 
-  constructor(private retainerService: RetainerService) { }
+  map = new Map([
+    ["/tweets", "Welcome"],
+    ["/search","Search"],
+    ["/notif","Notifications"],
+    ["/messages","Messages"],
+  ]);
+
+  constructor(private route: ActivatedRoute, private router: Router) {
+    router.events.forEach((event) => {
+      if (event instanceof NavigationStart) {
+          this.title = this.map.get(event.url);
+          console.log(event.url);
+      }
+    });
+   }
 
   ngOnInit(): void {
-    // this.getTitle();
   }
-
-  // getTitle():void {
-  //   this.title = this.retainerService.getTitle();
-  // }
 
 }

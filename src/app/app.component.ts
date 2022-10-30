@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { RetainerService } from './retainer.service';
+import { HeaderComponent } from './header/header.component';
 
 @Component({
   selector: 'app-root',
@@ -10,20 +10,9 @@ export class AppComponent {
 
   title : string = "";
 
-  constructor(private retainerService: RetainerService) {
-    this.getPageTitle();
+  constructor() {
    }
   
-  setPageTitle(title: string) : void {
-    // this.retainerService.setTitle(title);
-    this.title = title;
-  }
-
-  getPageTitle(): void {
-    this.retainerService.getTitle()
-      .subscribe(title => this.title = title);
-  }
-
 
 
 }
