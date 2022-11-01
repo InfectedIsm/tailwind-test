@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "title": "Nokia 8000 4G",
+      "url": "https://www.chiptrolls.com/specs/Nokia-8000-4G/3056"
+    },
+    {
+      "id": 2,
+      "title": "Samsung Galaxy A20e",
+      "url": "https://www.chiptrolls.com/specs/Samsung-Galaxy-A20e/3057"
+    },
+    {
+      "id": 3,
+      "title": "Realme C11",
+      "url": "https://www.chiptrolls.com/specs/Realme-C11/3022"
+    },
+    {
+      "id": 4,
+      "title": "OnePlus Nord",
+      "url": "https://www.chiptrolls.com/specs/OnePlus-Nord-5G/3015"
+    },
+    {
+      "id": 5,
+      "title": "Xiaomi POCO M2 Pr",
+      "url": "https://www.chiptrolls.com/specs/Xiaomi-POCO-M2-Pro/3014"
+    },
+    {
+      "id": 6,
+      "title": "Oppo Reno 4 Pro",
+      "url": "https://www.chiptrolls.com/specs/Oppo-Reno-4-Pro-5G/3013"
+    },
+    {
+      "id": 7,
+      "title": "Huawei Enjoy 20 Pro",
+      "url": "https://www.chiptrolls.com/specs/Huawei-Enjoy-20-Pro/3012"
+    },
+    {
+      "id": 8,
+      "title": "Vivo X50 Pro",
+      "url": "https://www.chiptrolls.com/specs/Vivo-X50-Pro/3011"
+    },
+    {
+      "id": 9,
+      "title": "LG Q61",
+      "url": "https://www.chiptrolls.com/specs/LG-Q61/3008"
+    },
+    {
+      "id": 10,
+      "title": "Apple iPhone 12 Pro Max",
+      "url": "https://www.chiptrolls.com/specs/Apple-iPhone-12-Pro-Max/3006"
+    }
+  ]

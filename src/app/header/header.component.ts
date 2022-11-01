@@ -13,6 +13,7 @@ export class HeaderComponent implements OnInit {
   actualRoute : string = "";
 
   map = new Map([
+    ["/", "Welcome"],
     ["/tweets", "Welcome"],
     ["/search","Search"],
     ["/notif","Notifications"],

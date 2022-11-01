@@ -6,6 +6,7 @@ import { NotifComponent } from './notif/notif.component';
 import { MessagesComponent } from './messages/messages.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/tweets', pathMatch: 'full' },
   {path: 'tweets', component: TweetsComponent},
   {path: 'search', component: SearchComponent},
   {path: 'notif', component: NotifComponent},
