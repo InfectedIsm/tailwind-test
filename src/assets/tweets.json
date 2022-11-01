@@ -1,13 +1,37 @@
-{
-    "created_at": "Thu May 10 15:24:15 +0000 2018",
-     "id_str": "850006245121695744",
-     "text": "Here is the Tweet message.",
-     "user": {
-     },
-     "place": {
+[
+    {
+        "created_at": "Thu May 10 15:24:15 +0000 2018",
+        "value": 2,
+        "text": "This tweet has been loaded through a JSON file",
+        "user": {
+            "name": "Roro",
+            "screen_name": "@RomainTheHendek",
+            "profile_image_url":"../assets/profiles/Roro.png"
+        },
+        "retweet_count": {
+        },
+        "favorite_count": {
+        },
+        "entities": {
+            "media_url":"media.jpg"
+        }
     },
-     "entities": {
-     },
-     "extended_entities": {
-     }
-}
+
+    {
+        "created_at": "Thu May 10 15:25:15 +0000 2018",
+        "value": 3,
+        "text": "This tweet has been loaded through a JSON file",
+        "user": {
+            "name": "La Chouette",
+            "screen_name": "@ZoulmanLeSage",
+            "profile_image_url":"../assets/profiles/Zoulman.png"
+        },
+        "retweet_count": {
+        },
+        "favorite_count": {
+        },
+        "entities": {
+            "media_url":"media.jpg"
+        }
+    }
+]
